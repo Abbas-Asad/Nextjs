@@ -30,12 +30,12 @@ const ContactForm = () => {
     })
 
 
-   async function onSubmit(values: z.infer<typeof formSchema>) {
+    async function onSubmit(values: z.infer<typeof formSchema>) {
 
 
-      await client.create({
+        await client.create({
             _type: "contactForm",
-            name:values.firstname  ,
+            name: values.firstname,
             email: values.email
         })
 
@@ -98,9 +98,6 @@ export default ContactForm
 // handle submit sb errors wghera handle karega phir jb sb clear to wo on submit call karega
 // react hook form for validation
 
-// gemini api free hai llm
-
-
 
 // schema kya kr rha hai kesy kr rha hai
 // hr input field ky liye puri field add krni paregi
@@ -117,5 +114,4 @@ export default ContactForm
 // next js ka faida kch bhi integrate kr dein
 
 // permission
-// aik copy paste may ye sab add krega env var
 
