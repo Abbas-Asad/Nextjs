@@ -1,0 +1,27 @@
+nextpublic taky client component my use kr skein
+
+payment intend movie wali example
+
+components = stripe elements
+
+payment intent create kay baad bill
+
+client secret random string hai
+
+payment intent may sabse important cheez client secret
+
+secret nhi to loading
+
+stripe ki provided cheezain elements
+
+server actions "use server" (action.ts)
+
+client component my server function ka tareeqa kay function may use server likh do  
+
+STRIPE_SECRET_KEY sirf server pr use hota hai
+
+stripe may bus flow smjh loading
+
+stripe jesay softwares apis ko use krny ky liye packages de dety hain
+
+payment say related hr trha ka kam aap stripe may kr skry ho
